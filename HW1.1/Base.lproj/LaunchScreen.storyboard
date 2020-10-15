@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,36 +13,35 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="zHG-yR-CGW">
-                                <rect key="frame" x="8" y="52" width="398" height="802"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gIu-L4-KfT">
-                                        <rect key="frame" x="0.0" y="0.0" width="398" height="397"/>
-                                        <color key="backgroundColor" red="0.45009386540000001" green="0.98132258650000004" blue="0.4743030667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hny-qa-k09">
-                                        <rect key="frame" x="0.0" y="405" width="398" height="397"/>
-                                        <color key="backgroundColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </view>
-                                </subviews>
-                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gzc-b6-XO9">
+                                <rect key="frame" x="16" y="16" width="343" height="309.5"/>
+                                <color key="backgroundColor" red="0.55634254220000001" green="0.97934550050000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PrY-Yq-TEb">
+                                <rect key="frame" x="16" y="341.5" width="343" height="309.5"/>
+                                <color key="backgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="zHG-yR-CGW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="iwQ-aR-im9"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zHG-yR-CGW" secondAttribute="trailing" constant="8" id="lCP-KZ-EGd"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="zHG-yR-CGW" secondAttribute="bottom" constant="8" id="rAK-8Y-YQZ"/>
-                            <constraint firstItem="zHG-yR-CGW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="zLo-Bq-MzZ"/>
+                            <constraint firstItem="gzc-b6-XO9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="4DH-sG-fzf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="PrY-Yq-TEb" secondAttribute="bottom" constant="16" id="76e-BK-Btv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gzc-b6-XO9" secondAttribute="trailing" constant="16" id="MwW-hc-67y"/>
+                            <constraint firstItem="gzc-b6-XO9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="OAn-Mg-OTd"/>
+                            <constraint firstItem="PrY-Yq-TEb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="YSZ-g5-J43"/>
+                            <constraint firstItem="PrY-Yq-TEb" firstAttribute="height" secondItem="gzc-b6-XO9" secondAttribute="height" id="g4E-Ok-v0x"/>
+                            <constraint firstItem="PrY-Yq-TEb" firstAttribute="top" secondItem="gzc-b6-XO9" secondAttribute="bottom" constant="16" id="hQX-jd-z5C"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PrY-Yq-TEb" secondAttribute="trailing" constant="16" id="oox-6u-TAA"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52.173913043478265" y="374.18478260869568"/>
+            <point key="canvasLocation" x="52" y="372.86356821589209"/>
         </scene>
     </scenes>
     <resources>
